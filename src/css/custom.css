@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+    font-family: "JetBrains Mono Medium";
+    src: url("/static/fonts/JetBrainsMono-Medium.ttf"),
+    url("/static/fonts/JetBrainsMono-Medium.ttf");
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+}
+
+html {
+    font-family: "JetBrains Mono Medium";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "JetBrains Mono Medium";
+}
